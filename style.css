@@ -1,0 +1,29 @@
+body {
+  background: linear-gradient(to bottom, #72EDF2, #5151E5);
+}
+
+.wrapper {
+  max-width: 360px;
+  margin: 0 16px;
+}
+
+.header-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+.header-contents button{
+  padding: 12px 24px;
+  border: none;
+  cursor: none;
+  background: #310A90;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  /* width: 153px; */
+}
