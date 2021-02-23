@@ -31,7 +31,6 @@ button {
 .wrapper {
   max-width: 360px;
   margin: 0 16px;
-  border: 1px solid red;
 }
 
 .header-contents {
