@@ -15,21 +15,25 @@ p {
   font-weight: 400;
 }
 
+input {
+  cursor: pointer;
+}
+
 button {
   padding: 12px 24px;
   border: none;
-  cursor: none;
+  cursor: pointer;
   text-transform: uppercase;
   color: white;
   letter-spacing: 1px;
   border-radius: 4px;
   font-size: 14px;
-  outline: none;
+  /* outline: none; */
   font-weight: 700;
 }
 
 .wrapper {
-  max-width: 360px;
+  /* max-width: 360px; */
   margin: 0 16px;
 }
 
@@ -135,6 +139,7 @@ button {
 }
 
 .btn1 {
+  cursor: pointer;
   background: none;
   border: 2px solid #331A90;
   width: 100%;
@@ -142,6 +147,7 @@ button {
   margin-bottom: 16px;
 }
 .btn2 {
+  cursor: pointer;
   background: #310A90;
   width: 100%;
   margin-bottom: 80px;
