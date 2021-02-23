@@ -1,10 +1,37 @@
 body {
-  background: linear-gradient(to bottom, #72EDF2, #5151E5);
+  background: linear-gradient(to right, #72EDF2, #5151E5 90%);
+  color: #310A90;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+
+p {
+  font-weight: 400;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  cursor: none;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+  font-weight: 700;
 }
 
 .wrapper {
   max-width: 360px;
   margin: 0 16px;
+  border: 1px solid red;
 }
 
 .header-contents {
@@ -25,5 +52,262 @@ body {
   border-radius: 4px;
   font-size: 14px;
   outline: none;
-  /* width: 153px; */
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-saludo {
+  font-size: 24px;
+  line-height: 39px;
+  margin: 0;
+}
+
+.hero-name {
+  font-size: 48px;
+  margin: 0;
+  line-height: 78px;
+}
+
+.hero-txt {
+  margin: 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.hero-icon {
+  display: flex;
+  gap: 16px;
+  margin: 16px 0;
+  padding-bottom: 24px;
+}
+
+.hero-icon img{
+  background: white;
+  border: 2px solid #310A90;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.hero-btn {
+  width: 100%;
+  margin: 16px 0;
+  background: #310A90;
+}
+
+.description {
+  text-align: center;
+}
+
+.description p {
+  text-align: center;
+  font-size: 24px;
+  line-height: 39px;
+  margin: 40px 0 0;
+}
+
+.description h2 {
+  margin: 24px 0;
+  text-align: center;
+}
+
+.description img {
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.leo img {
+  width: 100%;
+  margin: 40px 0;
+}
+
+.leo h1 {
+  background: #310A90;
+  box-shadow: -3px 3px 0px 1px white;
+  padding: 3px 10px;
+  color: white;
+}
+
+.leo p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.btn1 {
+  background: none;
+  border: 2px solid #331A90;
+  width: 100%;
+  color: #331A90;
+  margin-bottom: 16px;
+}
+.btn2 {
+  background: #310A90;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.leo-recomendation {
+  box-shadow: -2px -2px 0px 4px rgba(255, 255, 255, .2);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 80px;
+}
+
+.leo-recomendation img {
+  display: block;
+  margin: auto;
+}
+
+.leo-recomendation h4 {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0;
+}
+
+.leo-recomendation h6 {
+  opacity: .5;
+  font-weight: 12px;
+  line-height: 20px;
+  margin: 0 ;
+}
+
+.marvol img {
+  width: 100%;
+}
+
+.marvol h1 {
+  background: #310A90;
+  width: 105px;
+  text-transform: uppercase;
+  font-size: 24px;
+  box-shadow: -3px 3px 0px 1px white;
+  padding: 3px 10px;
+  color: white;
+}
+
+.marvol p {
+  margin: 16px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.jason-recomendation {
+  box-shadow: -2px -2px 0px 4px rgba(255, 255, 255, .2);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 80px;
+  border: 2px solid white 50%;
+}
+
+.jason-recomendation img {
+  display: block;
+  margin: auto;
+}
+
+.jason-recomendation h4 {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0;
+}
+
+.jason-recomendation h6 {
+  opacity: .5;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.netnet img {
+  width: 100%;
+}
+
+.netnet h1 {
+  background: #310A90;
+  width: 95px;
+  text-transform: uppercase;
+  font-size: 24px;
+  box-shadow: -3px 3px 0px 1px white;
+  padding: 3px 10px;
+  color: white;
+}
+
+.netnet p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.marco-description {
+  box-shadow: -2px -2px 0px 4px rgba(255, 255, 255, .2);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 80px;
+  border: 2px solid white 50%;
+}
+
+.marco-description img {
+  display: block;
+  margin: auto;
+}
+
+.marco-description h4 {
+  font-size: 16px;
+  line-height: 26px;
+  margin: 24px 0;
+}
+
+.marco-description h6 {
+  opacity: .5;
+}
+
+.contacto-contents input {
+  padding:  10px;
+  border: none;
+  cursor: pointer;
+  width: 94%;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.contacto-contents h4 {
+  font-size: 16px;
+  line-height: 26px ;
+  margin: 0 0 0 10px;
+
+}
+
+.input {
+  height: 135px ;
+  text-align: start;
+  text-rendering:unset;
+}
+
+.btn2.enviar {
+  margin: 10px 0 80px;
+}
+
+.contac-title {
+  background: #310A90;
+  width: 140px;
+  text-transform: uppercase;
+  font-size: 24px;
+  box-shadow: -3px 3px 0px 1px white;
+  padding: 3px 10px;
+  color: white;
+}
+
+.txt {
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+  font-weight: 400;
+}
+
+.hero-icon.footer {
+  justify-content: center;
+}
+
+.footer-contents {
+  text-align: center;
+  color: white;
 }
